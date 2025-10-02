@@ -100,3 +100,77 @@ export default function LoginScreen() {
         </KeyboardAvoidingView>
     );
 }
+
+const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        backgroundColor: '#f5f5f5',
+    },
+    content: {
+        flex: 1,
+        justifyContent: 'center',
+        padding: 20,
+    },
+    emoji: {
+        fontSize: 60,
+        textAlign: 'center',
+        marginBottom: 20,
+    },
+    title: {
+        fontSize: 32,
+        fontWeight: 'bold',
+        color: '#333',
+        marginBottom: 8,
+        textAlign: 'center',
+    },
+    subtitle: {
+        fontSize: 16,
+        color: '#666',
+        marginBottom: 30,
+        textAlign: 'center',
+    },
+    input: {
+        backgroundColor: '#fff',
+        borderRadius: 8,
+        padding: 15,
+        marginBottom: 15,
+        fontSize: 16,
+        borderWidth: 1,
+        borderColor: '#ddd',
+    },
+    button: {
+        backgroundColor: '#007bff',
+        borderRadius: 8,
+        padding: 15,
+        alignItems: 'center',
+        marginTop: 10,
+        minHeight: 50,
+        justifyContent: 'center',
+    
+    },
+    buttonDisabled: {
+        opacity: 0.5,
+    },
+    buttonText: {
+        color: '#fff',
+        fontSize: 18,
+        fontWeight: 'bold',
+    },
+    registerContainer: {
+        flexDirection: 'row',
+        justifyContent: 'center',
+        marginTop: 20,
+    },
+    registerText: {
+        color: '#666',
+        fontSize: 14,
+        fontWeight: 'bold',
+    },
+    infoText: {
+        marginTop:30,
+        textAlign: 'center',
+        color: '#999',
+        fontSize: 12,
+        paddingHorizontal: 20,
+    },
+    });
